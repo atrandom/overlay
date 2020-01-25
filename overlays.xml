@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE repositories SYSTEM "/dtd/repositories.dtd">
+<repositories version="1.0">
+  <repo quality="experimental" status="unofficial">
+    <name>atrandom-overlay</name>
+    <description>atrandom's overlay</description>
+    <homepage>https://github.com/atrandom/overlay</homepage>
+    <owner>
+      <email>yo.ouchi@gmail.com</email>
+      <name>atrandom</name>
+    </owner>
+    <source type="git">https://github.com/atrandom/overlay.git</source>
+  </repo>
+</repositories>

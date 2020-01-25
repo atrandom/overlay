@@ -1,0 +1,14 @@
+diff --git a/setup.py b/setup.py
+index 7275779..dff20a6 100644
+--- a/setup.py
++++ b/setup.py
+@@ -35,7 +35,7 @@
+     author='Benno Rice',
+     author_email='benno@jeamland.net',
+     url='https://github.com/python-hyper/wsproto/',
+-    packages=find_packages(),
++    packages=find_packages(exclude=['test']),
+     package_data={'': ['LICENSE', 'README.rst']},
+     package_dir={'wsproto': 'wsproto'},
+     python_requires=">=3.6.1",
+

@@ -25,7 +25,7 @@ RDEPEND="
 	>=dev-python/hyper-h2-3.0.1[${PYTHON_USEDEP}]
 	>=dev-python/hyperframe-5.1.0[${PYTHON_USEDEP}]
 	>=dev-python/kaitaistruct-0.7[${PYTHON_USEDEP}]
-	>=dev-python/ldap3-2.6.1[${PYTHON_USEDEP}]
+	<dev-python/ldap3-2.8[${PYTHON_USEDEP}]
 	>=dev-python/passlib-1.6.5[${PYTHON_USEDEP}]
 	>=dev-python/protobuf-python-3.6.0[${PYTHON_USEDEP}]
 	>=dev-python/pyasn1-0.3.1[${PYTHON_USEDEP}]
